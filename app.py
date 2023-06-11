@@ -10,8 +10,9 @@ data = [
         "kelas": "2IA02", 
         "npm": "51421667",
         "Hobi": "Futsal",
-        "Jurusan": "Informatika",
+        "Jurusan": "Teknik Informatika",
      }
+
 ]
 
 @app.route('/')
@@ -31,4 +32,4 @@ def add_data():
     return jsonify(new_data)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True
